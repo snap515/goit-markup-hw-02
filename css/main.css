@@ -3,6 +3,7 @@
   --secondary-color: rgba(117, 117, 117, 1);
   --hero-color: rgba(255, 255, 255, 1);
   --footer-address-color: rgba(255, 255, 255, 0.6);
+  --link-hover-color: rgba(33, 150, 243, 1);
 }
 
 .logo {
@@ -20,8 +21,27 @@
 }
 
 .nav-item {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--main-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--link-hover-color);
+}
+
+.email-phone a {
+  color: var(--secondary-color);
+}
+
+.email-phone a:hover,
+.email-phone a:focus {
+  color: var(--link-hover-color);
 }
 
 .hero-section {
