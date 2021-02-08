@@ -4,6 +4,7 @@
   --hero-color: rgba(255, 255, 255, 1);
   --footer-address-color: rgba(255, 255, 255, 0.6);
   --link-hover-color: rgba(33, 150, 243, 1);
+  --button-color: rgba(33, 150, 243, 1);
 }
 
 .visually-hidden {
@@ -17,6 +18,10 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.header-section {
+  background-color: rgba(236, 236, 236, 1);
 }
 
 .logo {
@@ -58,8 +63,28 @@
 }
 
 .hero-section {
-  width: 1600px;
-  height: 600px;
   color: var(--hero-color);
   background-color: rgba(47, 48, 58, 1);
+}
+
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--button-color);
+  width: 100px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
 }
