@@ -48,6 +48,16 @@
   letter-spacing: 0.02em;
 }
 
+.nav-item-current {
+  font-family: 'Roboto', sans-serif;
+  color: var(--link-hover-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
 .nav-item:hover,
 .nav-item:focus {
   color: var(--link-hover-color);
@@ -87,6 +97,20 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
+}
+
+.order-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-color);
+  background-color: var(--button-color);
+  box-shadow: 0px 4px 4px var(--btn-boxshadow-color);
+  border-radius: 4px;
+
+  padding: 15px 30px;
 }
 
 .our-features {
@@ -159,6 +183,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer-email-phone {
