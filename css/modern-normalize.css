@@ -306,3 +306,12 @@ a:visited {
 button {
   text-decoration: none;
 }
+
+button:hover,
+button:active,
+button:target,
+button:focus {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
