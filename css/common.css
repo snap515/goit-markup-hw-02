@@ -6,6 +6,8 @@
   --link-hover-color: rgba(33, 150, 243, 1);
   --button-color: rgba(33, 150, 243, 1);
   --btn-boxshadow-color: rgba(0, 0, 0, 0.15);
+  --name-color: #212121;
+  --prof-color: #757575;
 }
 
 body {
