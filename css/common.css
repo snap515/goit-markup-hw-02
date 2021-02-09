@@ -8,6 +8,10 @@
   --btn-boxshadow-color: rgba(0, 0, 0, 0.15);
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
