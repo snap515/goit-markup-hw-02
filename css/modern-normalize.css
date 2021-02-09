@@ -302,3 +302,7 @@ a {
 a:visited {
   color: currentColor;
 }
+
+button {
+  text-decoration: none;
+}

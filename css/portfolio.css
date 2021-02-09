@@ -1,0 +1,30 @@
+.button {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  background-color: white;
+}
+
+.button-current {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: var(--button-color);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+}

@@ -14,17 +14,6 @@
   text-transform: uppercase;
 }
 
-.hero-button {
-  background-color: var(--button-color);
-  width: 100px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-}
-
 .order-btn {
   font-weight: 700;
   font-size: 16px;
